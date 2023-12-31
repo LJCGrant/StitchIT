@@ -1,7 +1,9 @@
 # StitchIT
 Program to create section images from high-res DMT CoreScan3 images
 
-This program is designed for images of drill core taken using a DMT CoreScan3 in high-resolution mode (40 pixels/mm) that were collected and curated using the techniques outlined in the methods chapter of IODP Expedition 390/393.
+This program is designed for images of drill core taken using a DMT CoreScan3 in high-resolution mode (40 pixels/mm) that were collected and curated using the techniques outlined in the methods chapter of IODP Expedition 390/393. Please use Grant et al. (2024) as a guide when using this software and all uses of StitchIT should include the following citation:
+
+Grant et al. (2024) Data Report: High Resolution Digital Imaging of Whole Round Hard Rocks Collected during IODP South Atlantic Transect Expeditions 390C, 395E, 390 and 393 using a DMT CoreScan3. Proceeding of the International Ocean Discovery Program. vol. 390/393. 
 
 Images will need to have been cropped and aligned so that the red cutting line drawn along the length of the core is in the centre of the image.
 
@@ -14,3 +16,6 @@ For a piece log of an entire hole just name it using the site name; e.g. U1556B.
 If making a plot that aligns the DMT image next to a section half image taken using the SHIL, cropped section half images should be downloaded from LIMS and placed in the section_half folder, there is no need to change the SHIL image file name. (this section will need to be uncommented and is found at the bottom of each script)
 
 The folder for section half images should be; section_half/>site</>core-section</>image.jpg< e.g. section_img/U1556B/55R-2/image.jpg
+
+Image normalization:
+If overlapping image frames are available, first define the x-axis pixel coordinates for the overlapping regions and input these coordinates into the overlap.csv template. 
