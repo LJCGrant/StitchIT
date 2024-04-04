@@ -3,7 +3,7 @@ Program to create section images from high-res DMT CoreScan3 images
 
 This program is designed for images of drill core taken using a DMT CoreScan3 in high-resolution mode (40 pixels/mm) that were collected and curated using the techniques outlined in the methods chapter of IODP Expedition 390/393. Please use Grant et al. (2024) as a guide when using this software and all uses of StitchIT should include the following citation:
 
-Grant et al. (2024) Data Report: High Resolution Digital Imaging of Whole Round Hard Rocks Collected during IODP South Atlantic Transect Expeditions 390C, 395E, 390 and 393 using a DMT CoreScan3. Proceeding of the International Ocean Discovery Program. vol. 390/393. 
+Grant, L.J.C., Evans, A.D., Coggon, R.M., Estep, J.D., McIntyre, A., Slagle, A., Widlansky, S.J., Albers, E., Harris, M., Teagle, D.A.H., Sylvan, J.B., Reece, J.S., and the Expedition 390/393 Scientists, 2024. Data report: high-resolution digital imaging of whole-round hard rocks collected during IODP Expeditions 390C, 395E, 390, and 393, South Atlantic Transect, using a DMT CoreScan3. In Coggon, R.M., Teagle, D.A.H., Sylvan, J.B., Reece, J., Estes, E.R., Williams, T.J., Christeson, G.L., and the Expedition 390/393 Scientists, South Atlantic Transect.  Proceedings of the International Ocean Discovery Program, 390/393: College Station, TX (International Ocean Discovery Program). https://doi.org/10.14379/iodp.proc.390393.209.2024
 
 Images will need to have been cropped and aligned so that the red cutting line drawn along the length of the core is in the centre of the image.
 
